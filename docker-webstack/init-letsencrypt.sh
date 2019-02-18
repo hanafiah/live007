@@ -4,7 +4,7 @@ domains=(example.com www.example.com)
 rsa_key_size=4096
 data_path="./etc/ssl/certbot"
 email="email@example.com" # Adding a valid address is strongly recommended
-staging=0 # Set to 1 if you're testing your setup to avoid hitting request limits
+staging=1 # Set to 1 if you're testing your setup to avoid hitting request limits
 
 
 
