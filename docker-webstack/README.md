@@ -1,6 +1,10 @@
 Docker Web Stack
 ===============================
 
+repo url
+---
+https://github.com/hanafiah/docker-webstack
+
 This is general stack for the web development environment with preset Nginx, PHP, MariaDB & MongoDB
 
 You can use this setup for multiple projects. 
