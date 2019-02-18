@@ -63,3 +63,14 @@ chmod +x ./init-letsencrypt.sh
 
 ## Langkah 5
 jika pada langkah3 set staging=1, dan semua ok.. ( takda error ). edit init-letsencrypt.sh dan set staging=0 dan run balik Langkah 4
+
+## Langkah 6
+redirect semua http request ke https.
+
+Uncomment line ini https://github.com/hanafiah/live007/blob/master/docker-webstack/projects/live007/nginx.conf#L9-L14
+
+restart / reload nginx
+
+```
+docker exec nginx service nginx reload
+```
