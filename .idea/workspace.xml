@@ -52,7 +52,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/docker-webstack" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -86,19 +86,6 @@
               <item name="live007" type="b2602c69:ProjectViewProjectNode" />
               <item name="live007" type="462c0819:PsiDirectoryNode" />
               <item name="docker-webstack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="live007" type="b2602c69:ProjectViewProjectNode" />
-              <item name="live007" type="462c0819:PsiDirectoryNode" />
-              <item name="docker-webstack" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="live007" type="b2602c69:ProjectViewProjectNode" />
-              <item name="live007" type="462c0819:PsiDirectoryNode" />
-              <item name="docker-webstack" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -135,12 +122,12 @@
       <option name="presentableId" value="Default" />
       <updated>1550304375841</updated>
       <workItem from="1550304376960" duration="685000" />
-      <workItem from="1550452304254" duration="1422000" />
+      <workItem from="1550452304254" duration="1801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2107000" />
+    <option name="totallyTimeSpent" value="2486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -192,6 +179,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-130">
           <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-webstack/.gitmodules">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" />
         </state>
       </provider>
     </entry>
