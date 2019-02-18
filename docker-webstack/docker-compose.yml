@@ -1,20 +1,5 @@
 version: '3.7'
 services:
-    mariadb:
-        image: mariadb
-        container_name: "mariadb"
-        ports:
-            - "3306:3306"
-        volumes:
-            - "./db/mariadb:/var/lib/mysql:rw"
-            - "./etc/mysql/:/etc/mysql/"
-        environment:
-            # ALLOW_EMPTY_PASSWORD is recommended only for development.
-            - "MYSQL_ALLOW_EMPTY_PASSWORD=yes"
-            - "MYSQL_USER=root"
-            - "SET GLOBAL sql_mode =''"
-        networks:
-            - docker_webstack
     nginx:
         image: nginx:latest
         container_name: "nginx"
@@ -28,7 +13,6 @@ services:
             - "./projects/:/var/www/projects"
         depends_on:
             - php7.fpm
-            - mariadb
         networks:
             - docker_webstack
         command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
