@@ -1,16 +1,16 @@
-﻿#Tutorial
+# Tutorial
 ### Cara set SSL ( https ) percuma gunakan letsencrypt, certbot & nginx
 
 Tutorial ini akan menggunakan  struktur dari docker-webstack https://github.com/hanafiah/docker-webstack sebagai asas stack.
 
 fail init-letsencrypt.sh di ambil dari https://github.com/wmnnd/nginx-certbot
 
-##Langkah 1
+## Langkah 1
 clone repo ini
 ```
 git clone https://github.com/hanafiah/live007.git
 ```
-##Langkah 2
+## Langkah 2
 configure fail nginx.conf di folder projects anda. contoh disini `live007/nginx.conf`
 
 tambah
@@ -34,7 +34,7 @@ tambah
 
 `live007.katsini.com` adalah nama domain .
 
-##Langkah 3
+## Langkah 3
 Configure fail init-letsencrypt.sh
 
 - masukkan nama domain 
@@ -52,7 +52,7 @@ email="email@example.com"
 staging=0 # Set to 1 if you're testing your setup to avoid hitting request limits
 ```
 
-##Langkah 4
+## Langkah 4
 chmod execute & run fail init-letsencrypt.sh
 ```
 chmod +x ./init-letsencrypt.sh
@@ -61,5 +61,5 @@ chmod +x ./init-letsencrypt.sh
 ./init-letsencrypt.sh
 ```
 
-##Langkah 5
+## Langkah 5
 jika pada langkah3 set staging=1, dan semua ok.. ( takda error ). edit init-letsencrypt.sh dan set staging=0 dan run balik Langkah 4
