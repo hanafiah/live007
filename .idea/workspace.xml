@@ -40,7 +40,26 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-webstack/projects/example/src/index.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-webstack/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docker-webstack/projects/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-webstack/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="508">
@@ -60,6 +79,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/docker-webstack/projects/example/nginx.conf" />
         <option value="$PROJECT_DIR$/docker-webstack/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/docker-webstack/projects/.gitignore" />
       </list>
     </option>
   </component>
@@ -86,6 +106,27 @@
               <item name="live007" type="b2602c69:ProjectViewProjectNode" />
               <item name="live007" type="462c0819:PsiDirectoryNode" />
               <item name="docker-webstack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="live007" type="b2602c69:ProjectViewProjectNode" />
+              <item name="live007" type="462c0819:PsiDirectoryNode" />
+              <item name="docker-webstack" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="live007" type="b2602c69:ProjectViewProjectNode" />
+              <item name="live007" type="462c0819:PsiDirectoryNode" />
+              <item name="docker-webstack" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="live007" type="b2602c69:ProjectViewProjectNode" />
+              <item name="live007" type="462c0819:PsiDirectoryNode" />
+              <item name="docker-webstack" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -122,12 +163,12 @@
       <option name="presentableId" value="Default" />
       <updated>1550304375841</updated>
       <workItem from="1550304376960" duration="685000" />
-      <workItem from="1550452304254" duration="1801000" />
+      <workItem from="1550452304254" duration="1906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2486000" />
+    <option name="totallyTimeSpent" value="2591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -175,13 +216,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-webstack/projects/example/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-webstack/.gitmodules">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -193,6 +227,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="508">
           <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-webstack/projects/example/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-130">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-webstack/projects/example/src/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-webstack/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-webstack/projects/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
